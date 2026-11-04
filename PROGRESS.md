@@ -16,3 +16,6 @@ Next: Phase 0, Lesson 6 — gdb basics.
 Phase 0, Lesson 6 (gdb) — DONE. Phase 0 "done when" met (2-file CMake program stepped through in gdb).
 Can: break/run/next/step/print/bt/continue, read the call stack (#0 = running, below = callers), check "where am I" before print, debug a broken build from evidence (-DCMAKE_BUILD_TYPE typo, CMakeCache.txt, `file`).
 Next: Phase 0, Lesson 7 — AddressSanitizer.
+Phase 0, Lesson 7 (AddressSanitizer) — DONE. PHASE 0 COMPLETE.
+Can: enable ASan in CMake (compile + link options), read an ASan report (error type, READ/WRITE size, file:line, redzone map), know UB can silently "work"; always develop with -g + ASan + -Wall -Wextra.
+Next: Phase 1, Lesson 1 — "everything is a file" and file descriptors.
