@@ -10,3 +10,9 @@ Next: Phase 0, Lesson 4 — what a build system is, Make vs CMake.
 Phase 0, Lesson 4 (build systems, Make) — DONE.
 Can: explain dependencies + timestamps, headers as ingredients, write a Makefile with app/.o rules (TAB!), know Make works backwards from the first rule (goal), predicted an incremental rebuild correctly.
 Next: Phase 0, Lesson 5 — CMake and CMakeLists.txt.
+Phase 0, Lesson 5 (CMake) — DONE.
+Can: write CMakeLists.txt (project, C++17, add_executable, target_compile_options), out-of-source build with cmake -S . -B build, know CMake generates the Makefile, keep build/ and binaries out of git (.gitignore, git rm --cached).
+Next: Phase 0, Lesson 6 — gdb basics.
+Phase 0, Lesson 6 (gdb) — DONE. Phase 0 "done when" met (2-file CMake program stepped through in gdb).
+Can: break/run/next/step/print/bt/continue, read the call stack (#0 = running, below = callers), check "where am I" before print, debug a broken build from evidence (-DCMAKE_BUILD_TYPE typo, CMakeCache.txt, `file`).
+Next: Phase 0, Lesson 7 — AddressSanitizer.
