@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -fsanitize=address CMakeFiles/app.dir/main.cpp.o CMakeFiles/app.dir/mathx.cpp.o -o app 
