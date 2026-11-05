@@ -19,3 +19,6 @@ Next: Phase 0, Lesson 7 — AddressSanitizer.
 Phase 0, Lesson 7 (AddressSanitizer) — DONE. PHASE 0 COMPLETE.
 Can: enable ASan in CMake (compile + link options), read an ASan report (error type, READ/WRITE size, file:line, redzone map), know UB can silently "work"; always develop with -g + ASan + -Wall -Wextra.
 Next: Phase 1, Lesson 1 — "everything is a file" and file descriptors.
+Phase 1, Lesson 1 (everything is a file, fds) — DONE.
+Can: explain an fd (int index into kernel's per-process table), 0/1/2 = stdin/stdout/stderr inherited from shell, see fds in /proc/$$/fd, trace syscalls with strace, know short writes happen like short reads.
+Next: Phase 1, Lesson 2 — open/read/write/close and errno/perror.
