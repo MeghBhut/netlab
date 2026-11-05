@@ -22,3 +22,9 @@ Next: Phase 1, Lesson 1 — "everything is a file" and file descriptors.
 Phase 1, Lesson 1 (everything is a file, fds) — DONE.
 Can: explain an fd (int index into kernel's per-process table), 0/1/2 = stdin/stdout/stderr inherited from shell, see fds in /proc/$$/fd, trace syscalls with strace, know short writes happen like short reads.
 Next: Phase 1, Lesson 2 — open/read/write/close and errno/perror.
+Phase 1, Lesson 2 (open/read/write/close, errno/perror) — DONE.
+Can: write mini-cat with raw syscalls (argc/argv, read loop until 0, write n bytes, close), check every -1 with perror, look up E-names in man ERRORS (ENOENT, EBADF, EMFILE), know fd = lowest free number, close what you open.
+Next: Phase 1, Lesson 3 — blocking vs non-blocking.
+Phase 1, Lesson 3 (blocking, poll) — DONE. PHASE 1 COMPLETE.
+Can: explain blocking (process sleeps in kernel, STAT S / wait_woken), write a poll() loop with timeout, check revents with & not == (POLLIN|POLLHUP can arrive together), errors to fd 2, never perror unless the call returned -1; know poll([fds], N) watches many fds at once (plan: tun + stdin).
+Next: Phase 2, Lesson 1 — layers and encapsulation.
