@@ -34,3 +34,6 @@ Next: Phase 2, Lesson 2 — a packet as raw bytes (how a receiver knows where ea
 Track A, Phase 2, Lesson 2 (packet as raw bytes) — DONE.
 Can: count bytes in a hex dump (row label = offset, 2 hex digits = 1 byte, index from 0), split a byte into nibbles, decode IP version + IHL (×4), IP total length, protocol byte (6 = TCP), TCP data offset (×4), compute options length.
 Next: Phase 2, Lesson 3 — Ethernet and MAC addresses.
+Track A, Phase 2, Lesson 3 (Ethernet & MAC) — DONE.
+Can: explain MAC (6 bytes, per network card, changes every hop) vs IP (final destination, same end to end), Ethernet header layout (dst 6 | src 6 | type 2, 0x0800 = IPv4), interfaces lo vs enp0s3, MTU (1500 Ethernet), broadcast ff:ff:ff:ff:ff:ff.
+Next: Phase 2, Lesson 4 — ARP.
