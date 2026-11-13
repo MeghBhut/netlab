@@ -52,3 +52,6 @@ Next: Phase 2, Lesson 8 — what a checksum is.
 Track A, Phase 2, Lesson 8 (checksums) — DONE.
 Can: explain checksums as redundancy (like parity), limits (cancelling errors, swapped words undetected by a sum), layered protection (Ethernet CRC-32 per hop + IP/TCP/UDP 16-bit end-to-end), checksum ≠ security (attacker recomputes → needs crypto, Phase 9).
 Next: Phase 2, Lesson 9 — label a ping's IP + ICMP headers by hand (Phase 2 "done when").
+Track A, Phase 2, Lesson 9 (labelling a ping) — DONE. PHASE 2 COMPLETE.
+Can: read RFC 791 header diagrams (rows = 4 bytes), label every IPv4 field (ver/IHL, TOS, total len, id, flags DF/MF + offset, TTL, protocol, checksum, src/dst) and ICMP echo fields (type 8/0, code, checksum, identifier, seq, data); explain TTL, fragmentation/DF, why the checksum changes in the reply.
+Next: Track A, Phase 3, Lesson 1 — what TUN and TAP are.
