@@ -49,3 +49,6 @@ Next: Phase 2, Lesson 7 — byte order (big vs little endian, htons/ntohs).
 Track A, Phase 2, Lesson 7 (byte order) — DONE.
 Can: explain big-endian (network order) vs little-endian (x86), proved it by printing uint16_t 9000 bytes (28 23), use ntohs/htons/ntohl/htonl, know why sin_port needed htons (else 10275).
 Next: Phase 2, Lesson 8 — what a checksum is.
+Track A, Phase 2, Lesson 8 (checksums) — DONE.
+Can: explain checksums as redundancy (like parity), limits (cancelling errors, swapped words undetected by a sum), layered protection (Ethernet CRC-32 per hop + IP/TCP/UDP 16-bit end-to-end), checksum ≠ security (attacker recomputes → needs crypto, Phase 9).
+Next: Phase 2, Lesson 9 — label a ping's IP + ICMP headers by hand (Phase 2 "done when").
