@@ -28,3 +28,9 @@ Next: Phase 1, Lesson 3 — blocking vs non-blocking.
 Phase 1, Lesson 3 (blocking, poll) — DONE. PHASE 1 COMPLETE.
 Can: explain blocking (process sleeps in kernel, STAT S / wait_woken), write a poll() loop with timeout, check revents with & not == (POLLIN|POLLHUP can arrive together), errors to fd 2, never perror unless the call returned -1; know poll([fds], N) watches many fds at once (plan: tun + stdin).
 Next: Phase 2, Lesson 1 — layers and encapsulation.
+Track A, Phase 2, Lesson 1 (layers & encapsulation) — DONE.
+Can: explain encapsulation (data → TCP → IP → Ethernet), header sizes (14/20/20+options), overhead of tiny packets, Nagle vs TCP_NODELAY; read tcpdump -e -X, found "hi\n" and decoded TCP timestamp option bytes by hand (matches tcpdump).
+Next: Phase 2, Lesson 2 — a packet as raw bytes (how a receiver knows where each header starts/ends).
+Track A, Phase 2, Lesson 2 (packet as raw bytes) — DONE.
+Can: count bytes in a hex dump (row label = offset, 2 hex digits = 1 byte, index from 0), split a byte into nibbles, decode IP version + IHL (×4), IP total length, protocol byte (6 = TCP), TCP data offset (×4), compute options length.
+Next: Phase 2, Lesson 3 — Ethernet and MAC addresses.
