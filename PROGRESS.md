@@ -40,3 +40,6 @@ Next: Phase 2, Lesson 4 — ARP.
 Track A, Phase 2, Lesson 4 (ARP) — DONE.
 Can: explain ARP (broadcast "who-has IP", owner replies with MAC), read ARP in tcpdump and ip neigh (cache), know off-LAN traffic goes to the gateway's MAC while the IP dest stays final; ARP has no auth → ARP spoofing.
 Next: Phase 2, Lesson 5 — IP addresses and routing.
+Track A, Phase 2, Lesson 5 (IP addresses & routing) — DONE.
+Can: read `ip route` (connected /24 rule vs default via gateway), explain prefix length (/24, /16 → network bits, host count), predict and verify decisions with `ip route get`; know Phase 3 will add a route into tun0.
+Next: Phase 2, Lesson 6 — ports.
