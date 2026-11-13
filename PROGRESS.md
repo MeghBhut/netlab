@@ -43,3 +43,6 @@ Next: Phase 2, Lesson 5 — IP addresses and routing.
 Track A, Phase 2, Lesson 5 (IP addresses & routing) — DONE.
 Can: read `ip route` (connected /24 rule vs default via gateway), explain prefix length (/24, /16 → network bits, host count), predict and verify decisions with `ip route get`; know Phase 3 will add a route into tun0.
 Next: Phase 2, Lesson 6 — ports.
+Track A, Phase 2, Lesson 6 (ports) — DONE.
+Can: read `ss -tulnp` (LISTEN vs UNCONN, sockets are fds), well-known vs ephemeral ports (32768–60999, picked by kernel on connect), 127.0.0.1 vs 0.0.0.0 exposure, NAT blocks inbound (why hole punching was needed), ports <1024 need root.
+Next: Phase 2, Lesson 7 — byte order (big vs little endian, htons/ntohs).
