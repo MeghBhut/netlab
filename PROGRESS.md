@@ -37,3 +37,6 @@ Next: Phase 2, Lesson 3 — Ethernet and MAC addresses.
 Track A, Phase 2, Lesson 3 (Ethernet & MAC) — DONE.
 Can: explain MAC (6 bytes, per network card, changes every hop) vs IP (final destination, same end to end), Ethernet header layout (dst 6 | src 6 | type 2, 0x0800 = IPv4), interfaces lo vs enp0s3, MTU (1500 Ethernet), broadcast ff:ff:ff:ff:ff:ff.
 Next: Phase 2, Lesson 4 — ARP.
+Track A, Phase 2, Lesson 4 (ARP) — DONE.
+Can: explain ARP (broadcast "who-has IP", owner replies with MAC), read ARP in tcpdump and ip neigh (cache), know off-LAN traffic goes to the gateway's MAC while the IP dest stays final; ARP has no auth → ARP spoofing.
+Next: Phase 2, Lesson 5 — IP addresses and routing.
