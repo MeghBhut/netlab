@@ -46,3 +46,6 @@ Next: Phase 2, Lesson 6 — ports.
 Track A, Phase 2, Lesson 6 (ports) — DONE.
 Can: read `ss -tulnp` (LISTEN vs UNCONN, sockets are fds), well-known vs ephemeral ports (32768–60999, picked by kernel on connect), 127.0.0.1 vs 0.0.0.0 exposure, NAT blocks inbound (why hole punching was needed), ports <1024 need root.
 Next: Phase 2, Lesson 7 — byte order (big vs little endian, htons/ntohs).
+Track A, Phase 2, Lesson 7 (byte order) — DONE.
+Can: explain big-endian (network order) vs little-endian (x86), proved it by printing uint16_t 9000 bytes (28 23), use ntohs/htons/ntohl/htonl, know why sin_port needed htons (else 10275).
+Next: Phase 2, Lesson 8 — what a checksum is.
